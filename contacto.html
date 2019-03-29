@@ -8,7 +8,7 @@
     <title>Zakka orfebreria | contacto</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/contacto.css">
-    <script src="https://file.myfontastic.com/LBZPfzgjFDp8ywy8g3XRJG/icons.js"> </script>
+    <link rel="stylesheet" href="iconos.css">
 </head>
 
 <body>
@@ -30,9 +30,9 @@
 
     <nav class="main-nav">
         <div class="container container--flex">
-            <spam class="icon-menu" id="btnmenu">menu</spam>
+            <spam class="icon-menu" id="btnmenu"></spam>
             <ul class="menu" id="menu">
-                <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
                 <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
                 <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
                 <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
@@ -80,15 +80,15 @@
                         </a>
                     </div>
                 </div>
-                <form action="" method="POST" class="formulario column column--50">
+                <form action="php/enviar.php" method="POST" class="formulario column column--50">
                     <label for="" class="formulario__label">Nombre:</label>
-                    <input type="text" class="formulario__input--txt" name="nombre">
+                    <input type="text" class="formulario__input--txt" name="Nombre">
                     <label for="" class="formulario__label">Correo:</label>
                     <input type="text" class="formulario__input--txt" name="Correo">
                     <label for="" class="formulario__label">Telefono:</label>
                     <input type="text" class="formulario__input--txt" name="Telefono">
                     <label for="" class="formulario__label">Mensaje:</label>
-                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                    <textarea name="Mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
                     <input type="submit" name="" id="" class="btn formulario__btn" value="enviar">
                 </form>
             </div>

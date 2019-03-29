@@ -6,7 +6,7 @@
     padding: 10px;
     padding-top: 0;
     margin-bottom: 30px;
-    border-bottom: 1px solid #de423a;
+    border-right: 1px solid #de423a;
 }
 .contac-information .column__title{
     font-family: 'Pacifico', cursive;
@@ -62,8 +62,8 @@
         font-size: .75em;
     }
     .contac-information{
-        border-right: border-bottom: 1px solid #de423a;
-        border-bottom:  none; 
+        border-bottom: 1px solid #de423a; 
+        border-right: none;
     }
 }
 

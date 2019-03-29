@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .social-icon__link{
     text-decoration: none;
+    color: white;
 }
 .menu{
     position: absolute;
@@ -260,7 +261,7 @@ h1, h2, h3, h4, h5, h6{
         background: rgba(0,0,0,.85);
     }
     .banner{
-        margin-top: -165px;
+        margin-top: -182px;
         z-index: -1000;
     }
     .banner__img{
