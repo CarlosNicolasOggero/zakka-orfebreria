@@ -9,8 +9,9 @@
     border-right: 1px solid #de423a;
 }
 .contac-information .column__title{
-    font-family: 'Pacifico', cursive;
+   font-family: 'Fira Sans', sans-serif;
     font-weight: 100;
+    font-weight: bold;
 }
 .contac-information [class*="icon-"]{
     font-style: 1.3em;

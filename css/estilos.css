@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico');
+@import url('<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Work+Sans:400,700" rel="stylesheet">');
 
 *{
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
+    background: #232322;
+    color: white;
 }
 
 /*--- estilos generales ---*/
@@ -14,6 +16,7 @@ img{
     display: block;
     width: 100%;
     max-width: 100%;
+    
 }
 h1, h2, h3, h4, h5, h6{
     margin: 0;
@@ -37,14 +40,11 @@ h1, h2, h3, h4, h5, h6{
     width: 100%;
 }
 .logo{
-    font-size: 1.8em;
-    color: #de423a;
-    padding: 10px;
-    font-family: 'Pacifico', cursive;
-    font-weight: 100;
+    width: 280px;
+    text-align: center;
 }
 .main-header__contactInfo__phone{
-    background: #de423a;
+    background: #b59317;
     color: white;
     margin: 0 auto;
     padding: 10px;
@@ -118,10 +118,12 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: none;
 }
 .menu__link:hover{
-    background: #de423a;
+    background: #b59317;
+    color: white;
 }
 .menu__link--select{
-    background: #de423a;
+    background: #b59317;
+    color: white;
 }
 .mostrar{
     height: 196px;
@@ -161,7 +163,7 @@ h1, h2, h3, h4, h5, h6{
 
 /*---estilos principales----*/
 .group--color .container{
-    background: #de423a;
+    background: #b59317;
     color: white;
     padding: 10px;
     text-align: center;
@@ -169,7 +171,7 @@ h1, h2, h3, h4, h5, h6{
 .main__title{
     margin: 15px 0;
     font-size: 1.8em;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 100;
 }
 .colum__title{
@@ -183,13 +185,13 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     text-decoration: none;
     width: 120px;
-    background: #de423a;
+    background: #b59317;
     color: white;
     padding: 10px;
     margin: 10px auto;
 }
 .group__title{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Fira Sans', sans-serif;
     text-align: center;
     font-weight: 100;
     font-style: 1.8em;
@@ -212,7 +214,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .today-special__price{
     font-style: 1.5em;
-    color: #de423a;
+    color: #b59317;
     font-weight: bold;
 }
 

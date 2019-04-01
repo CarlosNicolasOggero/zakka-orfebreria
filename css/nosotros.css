@@ -6,11 +6,12 @@
     align-items: flex-start;
 }
 .our-team__title{
-    font-family: 'Pacifico', cursive;
-    color: #de423a;
+    font-family: 'Fira Sans', sans-serif;
+    color: #b59317;
     font-weight: bold;
     font-style: 1.8em;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 .our-team__img{
     width: 200px;

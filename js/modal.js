@@ -9,6 +9,7 @@ for(let i=0;i<imagenes.length;i++){
         
         let src=e.target.src;
         img.setAttribute("src", src);
+        
     });
 }
 
